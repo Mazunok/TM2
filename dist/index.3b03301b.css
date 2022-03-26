@@ -258,4 +258,101 @@ html, body {
   line-height: 28.18px;
 }
 
+.servises-container {
+  max-width: 1510px;
+  margin: 0 auto;
+}
+
+.servises-wrapper {
+  width: 74.125rem;
+  height: 42.6875rem;
+  flex-direction: column;
+  align-items: center;
+  margin: 2.625rem auto 0;
+  display: flex;
+}
+
+.servises-line {
+  width: 10.625rem;
+  border-top: 4px solid #f38281;
+  margin: 3rem 0 0;
+  padding: 0;
+}
+
+.servises-cards {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+}
+
+.servises-cards .card {
+  width: 23.125rem;
+  height: 8.6875rem;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5.625rem;
+  display: flex;
+}
+
+.servises-cards .card .card__logo {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.servises-cards .card .card__info {
+  margin: 0 auto;
+  padding: 0 0 0 1.875rem;
+}
+
+.servises-cards .card .card__info .title {
+  text-transform: uppercase;
+  color: #2d3033;
+  align-items: center;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.servises-cards .card .card__info .text {
+  color: #2d3033;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.servises-subtitle {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.servises-subtitle p {
+  text-align: center;
+  color: #2d3033;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Kaushan Script, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.servises-title {
+  margin: 0;
+  padding: 0;
+}
+
+.servises-title p {
+  text-align: center;
+  color: #2d3033;
+  text-transform: uppercase;
+  margin: 2.5rem 0 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 42px;
+}
+
 /*# sourceMappingURL=index.3b03301b.css.map */
