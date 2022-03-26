@@ -1,0 +1,113 @@
+.activity-wrapper{
+    width: 74.125rem;
+    height: 51.75rem;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activity-line{
+    padding: 0;
+    margin: 0;
+    width: 10.625rem;
+    border-top:4px solid #F38281 ;
+    margin-top: 3rem;
+}
+
+.activity-subtitle{
+    margin: 0 auto;
+    padding: 0;
+    p{
+        margin: 0 auto;
+        padding: 0;
+        font-family: 'Kaushan Script', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 44px;
+        text-align: center;
+        color: #2D3033;
+    }
+}
+
+.activity-title{
+    padding: 0;
+    margin: 0;
+    p{
+        padding: 0;
+        margin: 0;
+        margin-top:2.5rem ;
+        font-family:'Raleway',sans-serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        color: #2D3033;
+        text-transform: uppercase;
+    }
+}
+
+.activity-text{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+    margin-top: 3rem;
+}
+
+.activity-info{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 4rem;
+    .active-wrapper{
+        display: flex;
+        flex-direction: column;
+        .photography{
+            width: 35.625rem;
+            height: 15.9375rem;
+            margin-left: 1.875rem;
+            .photography__title{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                
+            }
+            .photography__text{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                p{
+                    width: 28.9375rem;
+                }
+            }
+        }
+        .creativity-wrapper{
+            width: 35.625rem;
+            height: 5.75rem;
+            margin-left: 1.875rem;
+            .creativity-title{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+        .webdesign-wrapper{
+            width: 35.625rem;
+            height: 5.75rem;
+            margin-left: 1.875rem;
+            .webdesign-title{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+    }
+}

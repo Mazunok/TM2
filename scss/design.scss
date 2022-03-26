@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.design-container{
+    max-width: 1510px;
+    height: 800px;
+    margin: 0 auto;
+    background-image: url(/img/background2.png), url(/img/bg1.png);
+    background-repeat: no-repeat;
+}
+
+.design-wrapper{
+    width: 74.125rem;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 2.625rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.design-line{
+    padding: 0;
+    margin: 0;
+    width: 10.625rem;
+    border-top:4px solid #F38281 ;
+    margin-top: 3rem;
+}
+
+.design-subtitle{
+    margin: 0 auto;
+    padding: 0;
+    p{
+        margin: 0 auto;
+        padding: 0;
+        font-family: 'Kaushan Script', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 44px;
+        text-align: center;
+        color: #2D3033;
+    }
+}
+
+.design-title{
+    padding: 0;
+    margin: 0;
+    p{
+        padding: 0;
+        margin: 0;
+        margin-top:2.5rem ;
+        font-family:'Raleway',sans-serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        color: #2D3033;
+        text-transform: uppercase;
+    }
+}
+
+.tv-wrapper{
+    position: relative;
+        .pict__item-1{
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            z-index: 2;
+            top: 1.5rem;
+            left: 5rem;
+        }
+        .pict__item-2{
+            border: 0;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            z-index: 1;
+            top: 2rem;
+            left: 13rem;
+        }
+        .pict__item-3{
+            position: absolute;
+            z-index: 3;
+            top: 8rem;
+            left: 29rem;
+        }
+
+}
