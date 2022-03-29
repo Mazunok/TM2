@@ -1,0 +1,71 @@
+.quote-container{
+    max-width: 1510px;
+    height: 254px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 7.125rem;
+    background-color: #F8F8F8;
+}
+
+.quote-wrapper{
+    width: 73.125rem;
+    height: 15.875rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    .quote-icon{
+        width: 10.625rem;
+        height: 10.625rem;
+        border: 2px solid #95E1D3;
+        margin: 0;
+        padding: 0;
+        img{
+           padding: 2rem;
+        }
+    }   
+    .quote-info{
+        width: 770px;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .quote-text{
+                margin: 0;
+                padding: 0;
+                margin-top: 10px;
+                font-family: 'Raleway',sans-serif;
+                font-style: italic;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 28px;               
+                color: #A9AFB1;
+        }
+        .quote-name{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 20px;
+            .quote-line{
+                width: 70px;
+                height: 2px;
+                border-top: 4px solid #F38281;
+                margin: 0;
+                padding: 0;
+            }
+            .quote-title{
+                margin: 0;
+                padding: 0;
+                margin-left: 56px;
+                font-family: 'Kaushan Script',sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 44px;
+                color: #000000;
+            }
+        }
+    }
+}
