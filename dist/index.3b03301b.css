@@ -510,7 +510,7 @@ html, body {
   text-align: center;
   color: #000;
   margin-top: 3rem;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
@@ -717,6 +717,128 @@ html, body {
   font-style: normal;
   font-weight: 400;
   line-height: 44px;
+}
+
+.team-container {
+  max-width: 1510px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.team-wrapper {
+  width: 74.125rem;
+  height: 55.9375rem;
+  flex-direction: column;
+  align-items: center;
+  margin: 3.5rem auto 0;
+  padding: 0;
+  display: flex;
+}
+
+.team-wrapper .team-photos {
+  width: 1170px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4rem;
+  display: flex;
+}
+
+.team-line {
+  width: 10.625rem;
+  border-top: 4px solid #f38281;
+  margin: 3rem 0 0;
+  padding: 0;
+}
+
+.team-subtitle {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.team-subtitle p {
+  text-align: center;
+  color: #2d3033;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Kaushan Script, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.team-title {
+  margin: 0;
+  padding: 0;
+}
+
+.team-title p {
+  text-align: center;
+  color: #2d3033;
+  text-transform: uppercase;
+  margin: 2.5rem 0 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 42px;
+}
+
+.team-text {
+  text-align: center;
+  color: #000;
+  margin-top: 3rem;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.team-cards {
+  width: 73.125rem;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 3.75rem 0 0;
+  padding: 0;
+  display: flex;
+}
+
+.team-cards .name {
+  text-transform: uppercase;
+  color: #2d3033;
+  margin-top: 1.5rem;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.team-cards .text {
+  text-transform: uppercase;
+  color: #2d3033;
+  margin-top: 2rem;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.logo-container {
+  max-width: 1510px;
+  background-color: #f8f8f8;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.logo-wrapper {
+  width: 73.125rem;
+  height: 13.1875rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5.25rem auto 0;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.3b03301b.css.map */
