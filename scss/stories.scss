@@ -1,0 +1,172 @@
+.stories-container{
+    max-width: 1510px;
+    height: 55.8125rem;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 5.25rem;
+   }
+
+.stories-wrapper{
+    width: 74rem;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 3.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 45.3125rem;
+}
+
+.stories-line{
+    padding: 0;
+    margin: 0;
+    width: 10.625rem;
+    border-top:4px solid #F38281 ;
+    margin-top: 3rem;
+}
+
+.stories-subtitle{
+    margin: 0 auto;
+    padding: 0;
+    p{
+        margin: 0 auto;
+        padding: 0;
+        font-family: 'Kaushan Script', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 44px;
+        text-align: center;
+        color: #2D3033;
+    }
+}
+
+.stories-title{
+    padding: 0;
+    margin: 0;
+    p{
+        padding: 0;
+        margin: 0;
+        margin-top:2.5rem ;
+        font-family:'Raleway',sans-serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        color: #2D3033;
+        text-transform: uppercase;
+    }
+}
+
+.stories-cards{
+    width: 74rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 2.625rem;
+    .card{
+        width: 370px;
+        margin-left: 30px;
+        .stories-img{
+            position: relative;
+            .stories-date{
+                position: absolute;
+                width: 5rem;
+                height: 5rem;
+                background-color: #95E1D3;
+                top: 9.25rem;
+                right: 19.1rem;
+                .number{
+                    margin-top: 10px;
+                    font-family:'Raleway',sans-serif;
+                    font-weight:700; 
+                    font-size:36px; 
+                    line-height:30px; 
+                    text-align: center; 
+                    color: #FFFFFF;
+                }
+                .month{
+                    font-family:'Raleway',sans-serif;
+                    font-weight: 500; 
+                    font-size: 18px;
+                    line-height: 30px; 
+                    text-align: center; 
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .title{
+            margin-top: 30px;
+            font-family: 'Raleway',sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            text-transform: uppercase;
+            color: #2D3033;
+        }
+        .text{
+            height: 120px;
+            width: 369px;
+            margin: 0;
+            padding: 0;
+            margin-top: 10px;
+            font-family: 'Raleway',sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            color: #2D3033;
+        }
+        .stories-comments{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            margin-top: 22px;
+            .views{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                img{
+                    margin: 0;
+                    padding: 0;
+                    margin-right: 16px;
+                }
+                p{
+                    margin: 0;
+                    padding: 0;
+                    height: 32px;
+                    padding-top: 10px;
+                    font-family: 'Raleway',sans-serif;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 15px;
+                    color: #2D3033;
+                }
+            }
+            .comments{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-left: 22px;
+                img{
+                    margin: 0;
+                    padding: 0;
+                }
+                p{
+                    margin: 0;
+                    padding: 0;
+                    margin-left: 20px;
+                    font-family: 'Raleway',sans-serif;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 15px;
+                    display: flex;
+                    align-items: center;
+                    color: #2D3033;
+                }
+            }
+        }
+    }
+}

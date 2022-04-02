@@ -1,0 +1,121 @@
+.review-container{
+    max-width: 1510px;
+    height: 57.6875rem;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 5.25rem;
+    background-image:url(/img/whitebg.png),url(/img/bgpeope.png);
+}
+
+.review-wrapper{
+    width: 74.125rem;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 3.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-line{
+    padding: 0;
+    margin: 0;
+    width: 10.625rem;
+    border-top:4px solid #F38281 ;
+    margin-top: 3rem;
+}
+
+.review-subtitle{
+    margin: 0 auto;
+    padding: 0;
+    p{
+        margin: 0 auto;
+        padding: 0;
+        font-family: 'Kaushan Script', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 44px;
+        text-align: center;
+        color: #2D3033;
+    }
+}
+
+.review-title{
+    padding: 0;
+    margin: 0;
+    p{
+        padding: 0;
+        margin: 0;
+        margin-top:2.5rem ;
+        font-family:'Raleway',sans-serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        color: #2D3033;
+        text-transform: uppercase;
+    }
+}
+
+.review-cards{
+    width: 73.125rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    .card{
+        width: 34.375rem;
+        height: 17rem;
+        display: flex;
+        flex-direction: row;
+        img{
+            width: 130px;
+            height: 130px;
+        }
+        .card-text{
+            display: flex;
+            flex-direction: column;
+            margin-left: 3.125rem;
+        .title{
+            font-family: 'Raleway',sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            text-transform: uppercase;
+            color: #2D3033;
+            height: 2.5rem;
+        }
+        .subtitle{
+            font-family: 'Raleway',sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            text-transform: uppercase;
+            color: #2D3033;
+            height: 1.1875rem;
+            margin-bottom: 2rem;
+        }
+        .text{
+            font-family: 'Raleway',sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            color: #2D3033;
+            margin-bottom: 10px;
+        }
+        .line{
+            width: 4.375rem;
+            border-top: 4px solid #F38281;
+            margin-bottom: 2rem;
+        }
+        }
+    }
+    .card:nth-child(2),
+    .card:nth-child(4){
+        margin-left: 3.125rem;
+    }
+    .card:nth-child(3),
+    .card:nth-child(4){
+        margin-top: 2.625rem;
+    }
+}
