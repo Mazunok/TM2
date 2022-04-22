@@ -72,17 +72,42 @@
                         margin-right: 2.3331rem;
                     }
                 }
-                form{
-                    .btn{
-                        padding: 0;
-                        border: none;
-                        font-style: inherit;
-                        color: inherit;
-                        background-color: transparent;
-                        background: #FFFFFF;
-                        border: 1px solid #C6CBCD;
-                    }
+                .btn-form{
+                    height: 3.4375rem;
+                    width: 23.125rem;
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 48px;
+                .btn-email{
+                    font-family: 'Raleway',sans-serif;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+                    color: #C6CBCD;
+                    width: 14.625rem;
+                    height: 3.4375rem;
+                    margin: 0;
+                    padding: 0;
+                    border: 1px solid #C6CBCD;
+                    border-right: none;
                 }
+                .btn{
+                    border: none;
+                    font-family: 'Raleway',sans-serif;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    background-color: #95E1D3;
+                    margin: 0;
+                    padding: 0;
+                    width: 8.3125rem;
+                    height: 3.4375rem;
+                }
+            }
             }
         }
         .footer-card2{

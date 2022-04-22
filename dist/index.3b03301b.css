@@ -24,11 +24,21 @@ html, body {
   display: flex;
 }
 
-.header-nav .nav-menu {
-  height: 40px;
+.header-nav .nav {
+  width: 41.875rem;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
 }
 
-.header-nav .nav-menu a {
+.header-nav .nav .nav-menu {
+  height: 40px;
+  max-width: 35.625rem;
+  justify-content: space-between;
+  display: flex;
+}
+
+.header-nav .nav .nav-menu a {
   text-align: center;
   color: #fff;
   width: 5.3125rem;
@@ -40,7 +50,7 @@ html, body {
   text-decoration: none;
 }
 
-.header-nav .nav-menu a:hover {
+.header-nav .nav .nav-menu a:hover {
   color: #f4bf87;
   border-bottom: 1px solid #f4bf87;
 }
@@ -48,12 +58,6 @@ html, body {
 .nav {
   width: 41.875rem;
   flex-direction: row;
-  justify-content: space-between;
-  display: flex;
-}
-
-.nav-menu {
-  width: 35.625rem;
   justify-content: space-between;
   display: flex;
 }
@@ -157,6 +161,40 @@ html, body {
   width: 270px;
   border-top: 4px solid #f9efcf;
   margin-top: 7.25rem;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 61.1875rem;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .header {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .header-nav {
+    width: 64rem;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .header-nav .nav {
+    width: 50%;
+  }
+
+  .header-nav .nav .nav-menu {
+    height: 40px;
+    width: 35.625rem;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .header-nav .nav .nav-menu a {
+    font-size: 13px;
+  }
 }
 
 .main-container {
@@ -1553,12 +1591,43 @@ html, body {
   font-weight: 400;
 }
 
-.footer .footer__container .footer-card .footer-card1 form .btn {
-  font-style: inherit;
-  color: inherit;
-  background: #fff;
+.footer .footer__container .footer-card .footer-card1 .btn-form {
+  height: 3.4375rem;
+  width: 23.125rem;
+  flex-direction: row;
+  margin-top: 48px;
+  display: flex;
+}
+
+.footer .footer__container .footer-card .footer-card1 .btn-form .btn-email {
+  text-align: center;
+  color: #c6cbcd;
+  width: 14.625rem;
+  height: 3.4375rem;
   border: 1px solid #c6cbcd;
+  border-right: none;
+  margin: 0;
   padding: 0;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.footer .footer__container .footer-card .footer-card1 .btn-form .btn {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  width: 8.3125rem;
+  height: 3.4375rem;
+  background-color: #95e1d3;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
 }
 
 .footer .footer__container .footer-card2 {
